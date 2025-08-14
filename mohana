@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohana | Profile</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f7fa;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1e88e5;
+      padding: 15px 30px;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+    header img {
+      height: 40px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 {
+      color: #1e88e5;
+      border-bottom: 2px solid #1e88e5;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .info-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+    .info-box:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mohana</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="Software Logo">
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="info-box">
+      <p>I am Mohana, currently pursuing Computer Science Engineering at Maha Bharathi Engineering College, Vasudevanur.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="info-box">
+      <ul>
+        <li>10th - Government Higher Secondary School, Kachirayapalayam (80%)</li>
+        <li>12th - Sri Vivekananda Higher Secondary School, Ervaipattinam (84%)</li>
+        <li>B.E. CSE - Maha Bharathi Engineering College (CGPA up to 5th Sem: 80.01%)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="activities">
+    <h2>Extra-Curricular</h2>
+    <div class="info-box">
+      <p>State-level athlete and boxer, participated in many curricular and extra-curricular activities.</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills & Courses</h2>
+    <div class="info-box">
+      <ul>
+        <li>Web Development Internship</li>
+        <li>Communication Skills</li>
+        <li>Python, Java, AI</li>
+        <li>Excel</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="info-box">
+      <p>Email: <a href="mailto:mohanam0105@gmail.com">mohanam0105@gmail.com</a></p>
+      <p>Phone: <a href="tel:9042776798">9042776798</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Mohana | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
